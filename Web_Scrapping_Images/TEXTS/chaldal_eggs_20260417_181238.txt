@@ -1,0 +1,34 @@
+```json
+[
+    {
+        "product_name": "Chicken Eggs (Layer)",
+        "product_type": "packet",
+        "price": 125,
+        "number_of_unit": 12
+    },
+    {
+        "product_name": "Chicken Eggs Layer (White)",
+        "product_type": "packet",
+        "price": 115,
+        "number_of_unit": 12
+    },
+    {
+        "product_name": "Chicken Eggs (Deshi)",
+        "product_type": "loose",
+        "price": 109,
+        "number_of_unit": 6
+    },
+    {
+        "product_name": "Chicken Eggs (Layer)",
+        "product_type": "loose",
+        "price": 65,
+        "number_of_unit": 6
+    },
+    {
+        "product_name": "Chicken Eggs Layer (White)",
+        "product_type": "loose",
+        "price": 59,
+        "number_of_unit": 6
+    }
+]
+```

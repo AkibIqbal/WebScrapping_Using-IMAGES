@@ -1,0 +1,22 @@
+```json
+[
+    {
+        "product_name": "Egg Loose",
+        "product_type": "loose",
+        "price": "50.50",
+        "number_of_unit": "4"
+    },
+    {
+        "product_name": "Dim Shashi Deal Combo",
+        "product_type": "packet",
+        "price": "745",
+        "number_of_unit": "30"
+    },
+    {
+        "product_name": "Dim Khichuri Combo Pack",
+        "product_type": "packet",
+        "price": "950",
+        "number_of_unit": "30"
+    }
+]
+```
