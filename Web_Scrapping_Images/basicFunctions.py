@@ -204,7 +204,12 @@ def urlToScreenshot(url):
     return filename, source, product, now.strftime("%Y%m%d_%H%M%S")
 
     
-
+def strLOFDToDf(resp):
+    import pandas as pd
+    import ast
+    list_of_dicts = ast.literal_eval(resp)
+    return pd.DataFrame(list_of_dicts)
+  
 
 
 

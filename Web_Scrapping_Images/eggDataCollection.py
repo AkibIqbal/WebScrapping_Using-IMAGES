@@ -1,7 +1,7 @@
 from basicFunctions import *
 
 ###### EGG
-def collectEggData(source='swapno'):
+def collectEggDataSS(source='swapno'):
     if source == 'chaldal':
         screenshot_path, src, product, timestamp = urlToScreenshot('https://chaldal.com/eggs?')
     else:
@@ -10,21 +10,9 @@ def collectEggData(source='swapno'):
     # ── Screenshot থেকে AI দিয়ে data extract করো ───────────────────
     role = "You are a data engineer that extracts structured data from images of grocery websites."
 
-    prompt = """Extract all chicken egg items from this grocery page screenshot and output them in JSON format like this:
-[
-    {
-        "product_name": "name of the egg product (only chicken egg)",
-        "product_type": "loose or packet",
-        "price": "price in numbers only (without ৳ symbol)",
-        "number_of_unit": "number of eggs (e.g., 4, 12, etc.)"
-    }
-]
-Requirements:
-- Only include actual chicken eggs
-- Exclude egg noodles, egg-based dishes, egg shampoo, or any other non-egg products
-- Price should be numeric value only
-- Use current/discounted prices where applicable
-- Output only the JSON list, no extra text"""
+    prompt = prompt = """Extract all text from this screenshot exactly as it appears. 
+Do not format, do not summarize, do not add any extra text. 
+Just raw text, exactly as shown on the page."""
 
     resp = respGenerator(role=role, prompt=prompt, image_path=screenshot_path)
 
@@ -36,6 +24,6 @@ Requirements:
     print(f'Text saved: {text_filename}')
 
 
-def collectEggDataFromAllSources():
-    collectEggData(source='chaldal')
-    collectEggData(source='swapno')
+def collectEggDataFromAllSources_SS():
+    collectEggDataSS(source='chaldal')
+    collectEggDataSS(source='swapno')

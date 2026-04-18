@@ -1,7 +1,10 @@
 from basicFunctions import urlToScreenshot
 
-#from riceDataCollection import collectRiceData, collectRiceDataFromAllSources
-from eggDataCollection import collectEggData, collectEggDataFromAllSources
+
+from eggDataCollection import collectEggDataSS, collectEggDataFromAllSources_SS
+
+from eggDataCollection_part_2 import collectEggData, collectEggDataFromAllSources
+
+collectEggDataFromAllSources_SS()
 
 collectEggDataFromAllSources()
-#collectRiceDataFromAllSources()

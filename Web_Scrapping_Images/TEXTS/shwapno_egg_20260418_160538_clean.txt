@@ -1,0 +1,44 @@
+[
+    {
+        "product_name": "Pangram Brown Egg",
+        "category": "packet",
+        "price": "205",
+        "number_of_unit": "15",
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Pangram Omega Egg Egg Tag",
+        "category": "packet",
+        "price": "205",
+        "number_of_unit": "15",
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Premma Vitamin E Enhanced Egg Tag",
+        "category": "packet",
+        "price": "220",
+        "number_of_unit": "15",
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Quality Premium Eggs (Brown)",
+        "category": "packet",
+        "price": "190",
+        "number_of_unit": "5",
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Quality Omega-3 Enriched Egg",
+        "category": "packet",
+        "price": "265",
+        "number_of_unit": "27",
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Quality Vitamin D Enriched Egg",
+        "category": "packet",
+        "price": "205",
+        "number_of_unit": "12",
+        "product_type": "packet"
+    }
+]
