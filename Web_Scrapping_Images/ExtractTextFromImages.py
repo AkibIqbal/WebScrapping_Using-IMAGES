@@ -1,3 +1,6 @@
+#This Code is for extracting text from a picture using python. 
+
+
 def extract_text_from_image(image_path):
     import os
     import pytesseract
