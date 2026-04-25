@@ -1,0 +1,58 @@
+[
+    {
+        "product_name": "Egg Loose",
+        "category": "loose",
+        "price": 129,
+        "number_of_unit": 12,
+        "product_type": "loose"
+    },
+    {
+        "product_name": "KaziFarms Kitchen Branded Egg",
+        "category": "packet",
+        "price": 190,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Paragon Brown Egg",
+        "category": "packet",
+        "price": 205,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Quality Premium Egg",
+        "category": "packet",
+        "price": 190,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Purnava Vitamin-E Enriched Egg",
+        "category": "packet",
+        "price": 220,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Purnava Omega 3 enriched Egg",
+        "category": "packet",
+        "price": 280,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Quality Omega-3 Enriched Egg",
+        "category": "packet",
+        "price": 255,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Paragon Omega 3+ Egg",
+        "category": "packet",
+        "price": 265,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    }
+]

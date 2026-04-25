@@ -1,0 +1,72 @@
+[
+    {
+        "product_name": "Chicken Eggs (Layer)",
+        "category": "packet",
+        "price": 119,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Chicken Eggs Layer (White)",
+        "category": "packet",
+        "price": 115,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Chicken Eggs (Deshi)",
+        "category": "packet",
+        "price": 109,
+        "number_of_unit": 6,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Chicken Eggs (Layer)",
+        "category": "packet",
+        "price": 220,
+        "number_of_unit": 6,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Purnava Vitamin E Eggs",
+        "category": "packet",
+        "price": 65,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Chicken Eggs Layer (White)",
+        "category": "packet",
+        "price": 265,
+        "number_of_unit": 6,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Paragon Omega 3+ Eggs",
+        "category": "packet",
+        "price": null,
+        "number_of_unit": 12,
+        "product_type": "packet"
+    },
+    {
+        "product_name": "Chicken Eggs (Layer)",
+        "category": "loose",
+        "price": 10.75,
+        "number_of_unit": 6,
+        "product_type": "loose"
+    },
+    {
+        "product_name": "Chicken Eggs Layer (White)",
+        "category": "loose",
+        "price": 9.58,
+        "number_of_unit": 6,
+        "product_type": "loose"
+    },
+    {
+        "product_name": "Chicken Eggs (Deshi)",
+        "category": "loose",
+        "price": 18.17,
+        "number_of_unit": 6,
+        "product_type": "loose"
+    }
+]
